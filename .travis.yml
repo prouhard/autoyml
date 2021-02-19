@@ -1,0 +1,12 @@
+language: python
+python:
+  - "3.8.6"
+cache: pip
+install:
+  - pip install pipenv
+  - pipenv --version
+  - pipenv install --dev
+script:
+  - python -m flake8 autoyml/ tests/
+  - python -m mypy autoyml/ tests/
+  - python -m pytest -vv

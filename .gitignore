@@ -1,0 +1,14 @@
+# Virtual environment
+.venv/
+
+# Cache
+.mypy_cache
+.pytest_cache
+__pycache__
+
+# Coverage
+coverage/
+.coverage
+
+# Keras Tuner checkpoints
+tuner_checkpoints/
