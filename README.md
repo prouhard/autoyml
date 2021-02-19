@@ -2,7 +2,7 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
-[![Build Status](https://travis-ci.com/prouhard/autoyml-homework.svg?token=kyCztgpxTDJaAsiPLynz&branch=master)](https://travis-ci.com/prouhard/autoyml-homework)
+[![Build Status](https://travis-ci.com/prouhard/autoyml.svg?branch=main)](https://travis-ci.com/prouhard/autoyml)
 
 **AutoyML** is a toy automatic machine learning library made for learning purposes.
 
