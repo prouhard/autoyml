@@ -2,7 +2,7 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
-[![Build Status](https://travis-ci.com/prouhard/autoyml.svg?branch=main)](https://travis-ci.com/prouhard/autoyml)
+[![Build Status](https://travis-ci.com/prouhard/autoyml.svg?branch=master)](https://travis-ci.com/prouhard/autoyml)
 
 **AutoyML** is a toy automatic machine learning library made for learning purposes.
 
@@ -37,7 +37,7 @@ PIPENV_VENV_IN_PROJECT=true pipenv install --dev
 
 ```
 .
-├── autoyml                      # Application source code
+├── autoyml                        # Application source code
 │   ├── abstract_model.py          # Definition of the model interface
 │   ├── decorators.py              # Decorator checking that the model can predict
 │   ├── errors.py                  # Custom errors
@@ -46,6 +46,6 @@ PIPENV_VENV_IN_PROJECT=true pipenv install --dev
 │   ├── preprocessing.py           # Collection of helper functions to manipulate the data
 │   └── tuner.py                   # Custom `Tuner` class with cross-validation evaluation
 └── tests                          # Application tests
-    └── test_autoyml.py          # Unit tests
+    └── test_autoyml.py            # Unit tests
 
 ```

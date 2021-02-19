@@ -57,7 +57,7 @@ class TunableNeuralNetwork(HyperModel):
 
         Args:
             hp: An instance of `HyperParameters`, automatically passed by the tuner.
-                Pass `hp=HyperParameters()` to use the fiexed default values.
+                Pass `hp=HyperParameters()` to use the fixed default values.
             dataset: The training data.
 
         Returns:
