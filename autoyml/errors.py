@@ -2,5 +2,5 @@ class CustomException(Exception):
     pass
 
 
-class NotFittedError(CustomException):
+class NotFittedErrors(CustomException):
     pass
